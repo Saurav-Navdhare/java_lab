@@ -1,6 +1,6 @@
 import java.util.*;
 
-class A_8 {
+class A_08 {
     public static int a, e, i, o, u;
 
     public static void main(String m[]) {
