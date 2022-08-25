@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class A_08 {
     public static int a, e, i, o, u;
