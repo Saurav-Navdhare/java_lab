@@ -10,8 +10,7 @@ public class A_06 {
         String myStr = line.toLowerCase();
         for (int i = 0; i < line.length(); i++) {
             if (Character.isLetter(line.charAt(i))) {
-                if (myStr.charAt(i) == 'a' || myStr.charAt(i) == 'e' || myStr.charAt(i) == 'i' || myStr.charAt(i) == 'o'
-                        || myStr.charAt(i) == 'u') {
+                    if("aeiou".indexOf(myStr.charAt(i))!=-1){
                     vowel++;
                 } else {
                     consonant++;
