@@ -41,7 +41,7 @@ public class A_15 {
     private static void showMatrix(int r1, int c2, int[][] mat3) {
         for (int i = 0; i < r1; i++) {
             for (int j = 0; j < c2; j++) {
-                System.out.print(mat3[i][j] + " ");
+                System.out.printf("%4d", mat3[i][j]);
             }
             System.out.println();
         }

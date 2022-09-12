@@ -9,7 +9,7 @@ class A_08 {
         String s = new String();
         while (true) {
             int ta = 0, te = 0, ti = 0, to = 0, tu = 0;
-            System.out.println("Enter A line (quit to exit:");
+            System.out.println("Enter A line (quit to exit):");
             s = sc.nextLine();
             if (s.equals("quit")) {
                 break;

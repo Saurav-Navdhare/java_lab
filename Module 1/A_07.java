@@ -7,8 +7,10 @@ public class A_07 {
         System.out.print("Enter a line: ");
         String line = sc.nextLine();
         int cap = 0;
-        for (int i = 0; i < line.length(); i++) {
-            if(Character.isUpperCase(line.charAt(i))){
+        if (Character.isUpperCase(line.charAt(0))) cap++;
+
+        for (int i = 1; i < line.length(); i++) {
+            if (Character.isUpperCase(line.charAt(i)) && line.charAt(i - 1) == ' ') {
                 cap++;
             }
         }
